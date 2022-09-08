@@ -7,9 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductsComponent implements OnInit {
 
+  public id: number=0;
+  public name: string="";
+  public description: string="";
+  public price: number=0;
+
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  addCart(){
+    
   }
 
 }
